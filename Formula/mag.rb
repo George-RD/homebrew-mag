@@ -33,24 +33,24 @@ class Mag < Formula
   on_macos do
     on_arm do
       url "https://github.com/George-RD/mag/releases/download/v#{version}/mag-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_AARCH64_APPLE_DARWIN" # Update per release from checksums.txt
+      sha256 "7bf3547fdecb25e8a25f88ea48e33cb5050ed18327343f480a2f8459f9430a4a" # Update per release from checksums.txt
     end
 
     on_intel do
       url "https://github.com/George-RD/mag/releases/download/v#{version}/mag-x86_64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_X86_64_APPLE_DARWIN" # Update per release from checksums.txt
+      sha256 "" # Update per release from checksums.txt
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/George-RD/mag/releases/download/v#{version}/mag-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "PLACEHOLDER_AARCH64_LINUX_GNU" # Update per release from checksums.txt
+      sha256 "ede75ac928b0302b6589e95577948ae61bcbf72e2031e1ba93215651df28077e" # Update per release from checksums.txt
     end
 
     on_intel do
       url "https://github.com/George-RD/mag/releases/download/v#{version}/mag-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "PLACEHOLDER_X86_64_LINUX_GNU" # Update per release from checksums.txt
+      sha256 "f15ff39db9d8d92e2eeda6afb675b1b5da3c90863129c442f2176ade642bcb5c" # Update per release from checksums.txt
     end
   end
 

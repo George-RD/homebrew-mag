@@ -35,11 +35,6 @@ class Mag < Formula
       url "https://github.com/George-RD/mag/releases/download/v#{version}/mag-aarch64-apple-darwin.tar.gz"
       sha256 "477f9cd03330d33ff3fa69928a66dd1cecb2a92ef32733fdd7bf2bc5126e5d40" # Update per release from checksums.txt
     end
-
-    on_intel do
-      url "https://github.com/George-RD/mag/releases/download/v#{version}/mag-x86_64-apple-darwin.tar.gz"
-      sha256 "" # Update per release from checksums.txt
-    end
   end
 
   on_linux do

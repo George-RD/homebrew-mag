@@ -28,24 +28,24 @@ class Mag < Formula
   homepage "https://github.com/George-RD/mag"
   license "MIT"
 
-  version "0.1.7"
+  version "0.1.8"
 
   on_macos do
     on_arm do
       url "https://github.com/George-RD/mag/releases/download/v#{version}/mag-aarch64-apple-darwin.tar.gz"
-      sha256 "c7a19d6333302390917079e9bb7bae28f5d5030d38c15f5f856f913cdbef6742" # Update per release from checksums.txt
+      sha256 "d2d8fcd233888d19923f68765df7844588a045d890d1f8c2ab021348f6d3c55f" # Update per release from checksums.txt
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/George-RD/mag/releases/download/v#{version}/mag-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a8a2ff21a9c4231f58cadb9845df5dbee6c083d4e9da9e73c456fd5945d28698" # Update per release from checksums.txt
+      sha256 "aa621389aeead4a1c88aa0b1f03896ff43c7b023bf872387061461578bbde04b" # Update per release from checksums.txt
     end
 
     on_intel do
       url "https://github.com/George-RD/mag/releases/download/v#{version}/mag-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7818f97e33faa9c6ff867e3e85950d1c07f6c3b68bbacbeb5f1a174bfddc3429" # Update per release from checksums.txt
+      sha256 "3691bc376d29893ceffee8c313966a89b12b476de73332c749074ef0c58a1470" # Update per release from checksums.txt
     end
   end
 
